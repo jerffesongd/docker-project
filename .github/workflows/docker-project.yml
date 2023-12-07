@@ -9,7 +9,7 @@ jobs:
         with:
           node-version: '16.20.0'
       
-      - name: Instalando Nestjs/cli
-      - run: npm install -g @nestjs/cli
-      - name: Rodando a aplicação
-      - run: npm run start
+    - name: Instalando Nestjs/cli
+      run: npm install -g @nestjs/cli
+    - name: Rodando a aplicação
+      run: npm run start
