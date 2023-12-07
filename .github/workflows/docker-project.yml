@@ -11,5 +11,7 @@ jobs:
       
       - name: Instalando Nestjs/cli
         run: npm install -g @nestjs/cli
+      - name: Baixando dependêntcias
+        run: npm install
       - name: Rodando a aplicação
         run: npm run start
