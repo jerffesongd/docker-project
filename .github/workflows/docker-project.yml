@@ -9,4 +9,4 @@ jobs:
         with:
           node-version: '16.20.0'
       - run: npm install -g @nestjs/cli
-      
+      - run: npm run start
