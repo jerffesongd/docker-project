@@ -1,2 +1,4 @@
 name: CI com Nest
 on: [push]
+jobs:
+  build:
