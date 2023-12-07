@@ -1,0 +1,2 @@
+name: CI com Nest
+on: [push]
